@@ -45,7 +45,7 @@ Final: 0x111c0d0e150a0c15
 
 Открываем Ghidra и ищем main
 
-```
+```c++
 undefined8 main(int param_1,long param_2)
 
 {
