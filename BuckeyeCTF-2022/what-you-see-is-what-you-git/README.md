@@ -11,8 +11,10 @@ Downloads: [what-you-see-is-what-you-git.zip](what-you-see-is-what-you-git.zip)
 
 Любые попытки вызвать:  
 ``` git log ```
-``` git log -p ```
+``` git log -p ```  
+
 Не увенчались успехом и Git предательски молчал или выдавал ошибку  
+
 ``` fatal: your current branch 'main' does not have any commits yet ```
 
 Лезем ручками в файлы и смотрим на ``` .git/HEAD ```  
