@@ -13,6 +13,7 @@ sinep: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically link
 ```
 
 ### Вариант решения 1
+____
 Меняем расширение файла на .sh и делаем его исполняемым.
 Запускаем ./sinep.sh  
 Программа просит ввести некий текст  
@@ -42,10 +43,10 @@ Final: 0x111c0d0e150a0c15
 ``` buckeye{r3v_i5_my_p45510n} ```
 
 ### Вариант решения 2
-
+____
 Открываем Ghidra и ищем main
 
-```
+```c++
 undefined8 main(int param_1,long param_2)
 
 {
